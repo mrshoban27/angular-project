@@ -1,0 +1,17 @@
+<body class="main">
+<div class ="container color-light" [@users]="users.length">
+  <div class="col">
+    <p>No of users Registered = {{count}}</p>
+    <form>
+      <input type="text" class="txt" name="item" placeholder=" Enter Your Name" [(ngModel)]="goal" ><br>
+      <br>
+      <input type="submit" class="btn" [value]="btnText" (click)="add()">
+    </form>
+  </div>
+  <div class="col">
+    <p style="background-color: rgba(68, 165, 194, 0.411);font-size:20px; "class="life container" *ngFor="let goal of users; let i=index" (click)="remove(i)">
+      {{goal}}
+    </p>
+  </div>
+</div>
+</body>

@@ -1,0 +1,24 @@
+body{
+   
+    color : white
+}
+.main {
+    margin-left: 210px; /* Same as the width of the sidenav */
+}
+input.txt{
+    border: 0;
+    padding: 1em;
+    width: 30%;
+    margin-bottom: 2em;
+  
+}
+
+input.btn{
+    border: 0;
+    display: block;
+    padding: 1em 3em;
+    background: #A5F883;
+    color:#003A61;
+    margin-bottom: 1em;
+    cursor: pointer;
+    }
